@@ -8,4 +8,3 @@ class programmer(models.Model):
     language=models.CharField(max_length=100)
     age=models.PositiveSmallIntegerField()
     is_active=models.BooleanField(default=True)
-    
